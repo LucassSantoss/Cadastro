@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cadastro</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="telefone">Telefone</string>
+    <string name="ex_12_93456_7890">Ex: 12-93456-7890</string>
 </resources>
