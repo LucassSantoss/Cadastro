@@ -3,6 +3,7 @@ package com.lucas.cadastro
 import android.os.Bundle
 import android.view.View
 import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 val uf = spinner.selectedItem.toString()
                 val formulario = Formulario(fullName, phone, email, isOnEmailList, gender, city, uf)
 
-                println(formulario)
+                Toast.makeText(this@MainActivity, formulario.toString(), Toast.LENGTH_LONG).show()
             }
 
             buttonLimpar.setOnClickListener {
