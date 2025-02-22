@@ -4,4 +4,42 @@
     <string name="cadastro">Cadastro</string>
     <string name="telefone">Telefone</string>
     <string name="ex_12_93456_7890">Ex: 12-93456-7890</string>
+    <string name="e_mail">E-mail</string>
+    <string name="genero">Sexo</string>
+    <string name="ingressar_na_lista_de_e_mails">Ingressar na lista de e-mails?</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="cidade">Cidade</string>
+    <string name="uf">UF</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
+    <string-array name="valoresUf">
+        <item>RO</item>
+        <item>AC</item>
+        <item>AM</item>
+        <item>RR</item>
+        <item>PA</item>
+        <item>AP</item>
+        <item>TO</item>
+        <item>MA</item>
+        <item>PI</item>
+        <item>CE</item>
+        <item>RN</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>AL</item>
+        <item>SE</item>
+        <item>BA</item>
+        <item>ME</item>
+        <item>ES</item>
+        <item>RJ</item>
+        <item>SP</item>
+        <item>PR</item>
+        <item>SC</item>
+        <item>RS</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>GO</item>
+        <item>DF</item>
+    </string-array>
 </resources>
