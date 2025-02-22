@@ -36,6 +36,16 @@ class MainActivity : AppCompatActivity() {
 
                 println(formulario)
             }
+
+            buttonLimpar.setOnClickListener {
+                inputName.editableText.clear()
+                inputPhone.editableText.clear()
+                inputEmail.editableText.clear()
+                checkboxEmail.isChecked = false
+                radioButtonFeminino.isChecked = false
+                radioButtonMasculino.isChecked = false
+                inputCidade.editableText.clear()
+            }
         }
     }
 }
