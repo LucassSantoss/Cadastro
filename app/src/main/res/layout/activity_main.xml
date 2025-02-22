@@ -54,6 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:inputType="text"
         android:labelFor="@id/lableName"
+        android:background="@drawable/edittext_border"
         />
 
     <TextView
@@ -79,6 +80,7 @@
         android:labelFor="@id/lablePhone"
         android:hint="@string/ex_12_93456_7890"
         android:autofillHints="phone"
+        android:background="@drawable/edittext_border"
         />
 
     <TextView
@@ -102,6 +104,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:inputType="textEmailAddress"
         android:labelFor="@id/lableEmail"
+        android:background="@drawable/edittext_border"
         />
 
     <CheckBox
@@ -169,6 +172,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:inputType="text"
         android:labelFor="@id/lableCidade"
+        android:background="@drawable/edittext_border"
         />
 
     <TextView
